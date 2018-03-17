@@ -1,6 +1,7 @@
 body {
-    widows: 960px;
+  
     line-height: 32px;
+   
 }
 
 * {
@@ -22,7 +23,8 @@ header {
     background: #4aaaa5;
     float: left;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 20px;
+    padding: 5px;
+    margin-left: 270px;
 
 }
 
@@ -30,6 +32,7 @@ header {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(112, 112, 112);
+    margin-right: 10px;
 
 }
 
@@ -37,6 +40,7 @@ header {
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(112, 112, 112);
+    margin-right: 10px;
 }
 
 #contact {
@@ -58,10 +62,35 @@ header {
 
 .content {
     width: 960px;
+    background: #ffffff;
+    display: block;
+    padding: 20px;
+    margin: auto;
+ 
 
 }
 
 section {
-    padding: 20px;
+    margin-right: 32px;
+    margin-left: 32px;
    
+}
+
+footer {
+    text-align: center;
+}
+
+#aboutme {
+    color: #4aaaa5;
+
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.headercontent {
+    width: 960px;
+    margin: auto;
 }
