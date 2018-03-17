@@ -54,6 +54,7 @@ header {
 
 #profile-image {
     float: left;
+    padding: 10px;
 }
 
 .clearfix::after {
@@ -72,11 +73,7 @@ header {
 
 }
 
-section {
-    margin-right: 32px;
-    margin-left: 32px;
-   
-}
+
 
 
 #aboutme {
@@ -122,6 +119,8 @@ footer {
     background: #4aaaa5;
     color: #ffffff;
     width: 300px;
+    position: relative;
+    
 }
 
 #naturez {
@@ -129,6 +128,9 @@ footer {
     background: #4aaaa5;
     color: #ffffff;
     width: 300px;
+    position: relative;
+    
+    
 }
 
 #lonelyz {
@@ -150,4 +152,8 @@ footer {
     background: #4aaaa5;
     color: #ffffff;
     width: 300px;
+}
+
+.projects {
+    margin: auto;
 }
