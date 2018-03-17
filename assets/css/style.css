@@ -25,6 +25,7 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 5px;
     margin-left: 270px;
+    
 
 }
 
@@ -76,9 +77,6 @@ section {
    
 }
 
-footer {
-    text-align: center;
-}
 
 #aboutme {
     color: #4aaaa5;
@@ -93,4 +91,10 @@ p {
 .headercontent {
     width: 960px;
     margin: auto;
+}
+
+footer { 
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
 }
