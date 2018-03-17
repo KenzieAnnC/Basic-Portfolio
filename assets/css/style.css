@@ -1,0 +1,67 @@
+body {
+    widows: 960px;
+    line-height: 32px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+header {
+
+    background: #ffffff;
+    float: left;
+    margin-bottom: 20px;
+    width: initial;
+
+}
+
+#name {
+    color: white;
+    background: #4aaaa5;
+    float: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+
+}
+
+#about {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 112, 112);
+
+}
+
+#portfolio {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 112, 112);
+}
+
+#contact {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(112, 112, 112);
+}
+
+#profile-image {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.content {
+    width: 960px;
+
+}
+
+section {
+    padding: 20px;
+   
+}
